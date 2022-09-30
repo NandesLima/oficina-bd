@@ -57,3 +57,10 @@
 - **OS x Tabela (N, N)** - Serviços da OS
 
 - **OS x Peças (N, N)** - Peças da OS
+
+## Schema UML
+
+![](https://github.com/NandesLima/oficina-bd/blob/master/modelo-UML.png)
+
+## Schema EER
+![](https://github.com/NandesLima/oficina-bd/blob/master/modelo-EER.png)
