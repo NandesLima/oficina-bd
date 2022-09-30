@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-- Crar o schema conceitual para o contexto de oficina com base na narrativa fornecida.
+- Criar o schema conceitual para o contexto de oficina com base na narrativa fornecida.
 
 ## Narrativa
 
@@ -26,4 +26,34 @@
 
 ### Entidades
 
+**OS:** N°, Data de emissão, valor, Status, Data de conclusão, Descrição
 
+**Cliente:** Nome, ID, contato
+
+**Veículo:** Modelo, Marca, Ano, Descrição defeitos 
+
+**Equipe:** ID_mecânicos
+
+**Tabela:** ID, Nome do serviço, categoria
+- **Concerto:** Descrição do concerto, valor concerto
+- **Revisão:** Descrição da revisão, valor revisão
+
+**Peças:**ID, Nome da peça, valor da peça
+
+**Mecânico:** ID, Nome, Endereço, Especialidade
+
+### Relacionamentos
+
+- **Mecânico x Equipe (1, 1)** - Mecânicos da equipe
+
+- **Equipe x OS (1, N)** - Equipe responsável pela OS
+
+- **OS x Veículo (N, 1)** - Veículo da OS
+
+- **Veículos x Cliente (N, 1)** - Veículos do cliente
+
+- **OS x Cliente (N, 1)** - Autorização
+
+- **OS x Tabela (N, N)** - Serviços da OS
+
+- **OS x Peças (N, N)** - Peças da OS
