@@ -65,12 +65,12 @@ A partir da narrativa, o banco de dados foi mapeado da seguinte forma:
 ### 📐 Schema Lógico/Físico (EER)
 A visão clássica do banco de dados (Tabelas, PKs, FKs e cardinalidade):
 
-![Modelo EER](../assets/modelo-EER.png)
+![Modelo EER](assets/modelo-EER.png)
 
 ### 📊 Schema Conceitual (UML)
 A abstração do sistema no mundo real:
 
-![Modelo UML](../assets/modelo-UML.png)
+![Modelo UML](assets/modelo-UML.png)
 
 ---
 *Este projeto integra meu portfólio de **Engenharia e Arquitetura de Dados**, comprovando proficiência em modelagem relacional de negócio, desenvolvido por **Ariel Shlomoh**.*

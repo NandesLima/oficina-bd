@@ -68,12 +68,12 @@ Abaixo, a documentação visual do mapeamento gerado, validando a arquitetura pr
 ### 📐 Schema Lógico/Físico (EER)
 A visão clássica do banco de dados (Tabelas, PKs, FKs e cardinalidade):
 
-![Modelo EER](modelo-EER.png)
+![Modelo EER](docs/assets/modelo-EER.png)
 
 ### 📊 Schema Conceitual (UML)
 A abstração do sistema no mundo real:
 
-![Modelo UML](modelo-UML.png)
+![Modelo UML](docs/assets/modelo-UML.png)
 
 ---
 *Este projeto integra meu portfólio de **Engenharia e Arquitetura de Dados**, comprovando proficiência em modelagem relacional de negócio.*
